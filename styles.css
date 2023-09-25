@@ -1,6 +1,7 @@
 * {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
+    box-sizing: border-box;
 }
 body {
     background-image: linear-gradient(to bottom right, antiquewhite, rgb(212, 153, 223));
@@ -17,6 +18,7 @@ body {
     border-bottom-width: 0.15rem;
     border-bottom-style: solid;
     border-bottom-color: #000000;
+    margin-left: 200px;
 }
 .logo {
     display: flex;
@@ -31,7 +33,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    margin: 0 200px;
+    margin: 0 200px 0 0;
     min-height: 100vh;
 }
 .leftcontent {
@@ -92,5 +94,34 @@ a:hover {
     border-top-width: 0.15rem;
     border-top-style: solid;
     border-top-color: #000000;
-    
+    margin-left: 200px;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+}
+.sidebar {
+    font-size: 20px;
+    width: 200px;
+    background-color: #00000020;
+    padding: 10px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.sidebar li {
+    list-style-type: none;
+    margin: 10px 0;
+    color: blueviolet;
+    font-weight: 400;
+    font-size: 20px;
+}
+ul {
+    padding-left: 20px;
+}
+.thanhvien{
+    color: darkmagenta;
+    font-size: 26px;
+    font-weight: 900;
+    text-decoration: underline;
 }
