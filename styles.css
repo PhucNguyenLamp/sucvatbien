@@ -125,3 +125,12 @@ ul {
     font-weight: 900;
     text-decoration: underline;
 }
+
+.rightcontent {
+    flex: 1;
+    background-color: #00000020;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+}
